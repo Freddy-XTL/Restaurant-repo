@@ -1,0 +1,80 @@
+body {
+    font-family: "Concert One", sans-serif;
+    margin: 0;
+    background-color: rgb(255, 218, 170);
+}
+
+nav {
+    background-color: rgb(228, 157, 105);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+
+nav img {
+  width: 90px;
+  height: 90px;
+  padding-top: 5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 5px;
+  cursor: pointer;
+  padding-top: 40px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.menu-info {
+    text-align: center;
+    padding: 30px 0 60px 0;
+}
+
+.menu-info p {
+    margin: 0 210px 0 210px;
+}
+
+.main-dishes, .dessert-dishes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0 10px 10px 10px;
+}
+.main-dish-option, .dessert-dish-option {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 550px;
+    height: 700px;
+}
+
+.main-dish-option img, .dessert-dish-option img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}

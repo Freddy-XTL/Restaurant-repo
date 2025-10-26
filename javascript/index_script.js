@@ -1,0 +1,1 @@
+alert("Good day, welcome to Savoury Bites! Enjoy your visit!")
